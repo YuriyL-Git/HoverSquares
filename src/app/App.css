@@ -1,3 +1,32 @@
 .App {
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Roboto, sans-serif;
 }
+
+.main-container {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.coords-section{
+  margin-left: 30px;
+}
+
+@media screen and (max-width: 780px){
+  .main-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .coords-section{
+    margin-left: 0;
+  }
+}
+
+
+
+

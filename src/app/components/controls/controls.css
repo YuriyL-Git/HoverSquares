@@ -1,0 +1,33 @@
+.controls-container{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 20px 0 20px;
+}
+
+.btn-start {
+  padding: 10px;
+  background-color: #3142e1e3;
+  color: white;
+  border: none;
+  font-size: large;
+  text-transform: uppercase;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-start:hover {
+  background-color: #3142e1cc;
+}
+
+.btn-start:active {
+  transform: scale(0.95);
+}
+
+.field-size-select{
+  outline: none;
+  font-size: large;
+  border: 1px solid #204de6;
+  border-radius:  5px;
+  padding: 5px;
+  width: 250px;
+}
